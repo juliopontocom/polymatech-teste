@@ -1,0 +1,150 @@
+@font-face {
+  font-family: 'Tuffy';
+  src: url('../assets/fonts/Tuffy.ttf');
+}
+
+@font-face {
+  font-family: 'Tuffy Bold';
+  src: url('../assets/fonts/Tuffy_Bold.ttf');
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Tuffy';
+}
+
+body{
+  display: flex; 
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../assets/background.jpg');
+  background-position: center;
+}
+
+.container{
+  margin-top: 50px;
+  width: 850px;
+  height: 750px;
+  background-image: linear-gradient(#36174C80, #291a5d80);
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 50px;
+}
+
+.titleSpace{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.logoImg{
+  width: 154px;
+  height: 131px;
+  background-image: url('../assets/Logo.png');
+  background-size: cover;
+}
+
+.titleSpace h1{
+  font-size: 3rem;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-family: 'Tuffy Bold';
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.titleSpace p{
+  font-size: 1.25rem;
+  color: #B0B8BC;
+}
+
+.dataSpace{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  height: 150px;
+}
+
+.buttonsSpace{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input{
+  width: 600px;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #FFFFFF;
+  outline: none;
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+input::placeholder{
+  color: #B0B8BC;
+  font-size: 1.25rem;
+}
+
+
+.footerBar{
+  width: 1100px;
+  background-color: #5740a825;
+  border: 1px solid #5740a825;
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+footer{
+  background: transparent;
+  width: 1100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nameImg{
+  width: 163px;
+  height: 42px;
+  background-image: url('../assets/name.png');
+  background-size: cover;
+}
+
+.linksSpace{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-right: 20px;
+}
+
+.linksSpace a{
+  text-decoration: none;
+  color: #A59FB2;
+}
+
+.linksSpace a:hover{
+  text-decoration: none;
+  color: #FFFFFF;
+  transition: .1s;
+}
+
+
+
