@@ -28,17 +28,17 @@ body{
 }
 
 .container{
-  margin-top: 50px;
-  width: 850px;
-  height: 750px;
+  margin-top: 3rem;
+  width: 53rem;
+  height: 47rem;
   background-image: linear-gradient(#36174C80, #291a5d80);
-  border-radius: 20px;
+  border-radius: 1.25rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  gap: 50px;
+  gap: 3rem;
 }
 
 .titleSpace{
@@ -46,13 +46,13 @@ body{
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 15px;
-  margin-top: 30px;
+  gap: 1rem;
+  margin-top: 2rem;
 }
 
 .logoImg{
-  width: 154px;
-  height: 131px;
+  width: 10rem;
+  height: 8rem;
   background-image: url('../assets/Logo.png');
   background-size: cover;
 }
@@ -75,8 +75,8 @@ body{
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 30px;
-  height: 150px;
+  gap: 2rem;
+  height: 9rem;
 }
 
 .buttonsSpace{
@@ -84,18 +84,18 @@ body{
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 20px;
+  gap: 1rem;
 }
 
 input{
-  width: 600px;
-  height: 40px;
+  width: 37.5rem;
+  height: 2.5rem;
   background-color: transparent;
   border: none;
   border-bottom: 2px solid #FFFFFF;
   outline: none;
   color: #FFFFFF;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 input::placeholder{
@@ -105,24 +105,24 @@ input::placeholder{
 
 
 .footerBar{
-  width: 1100px;
+  width: 70rem;
   background-color: #5740a825;
   border: 1px solid #5740a825;
-  margin-top: 50px;
-  margin-bottom: 15px;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
 }
 
 footer{
   background: transparent;
-  width: 1100px;
+  width: 70rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 .nameImg{
-  width: 163px;
-  height: 42px;
+  width: 10.1rem;
+  height: 2.6rem;
   background-image: url('../assets/name.png');
   background-size: cover;
 }
@@ -131,8 +131,8 @@ footer{
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px;
-  margin-right: 20px;
+  gap: 1.25rem;
+  margin-right: 1.25rem;
 }
 
 .linksSpace a{
